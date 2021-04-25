@@ -132,7 +132,7 @@ class App extends Component {
       if (exists) {
         PushNotification.localNotification({
           channelId: NOTIF_CHANNEL,
-          title: 'Fire Detector',
+          title: 'FiDe',
           message: status === 1 ? 'Terdeteksi api pada kamera' : 'Tidak terdeteksi api pada kamera',
           soundName: 'default',
           vibrate: true,
